@@ -35,29 +35,7 @@ NovaMart's leadership identified four core challenges:
 
 ---
 
-## Project Structure
 
-```
-novamart-marketing-analytics/
-│
-├── sql/
-│   ├── 01_products_price_tiers.sql          # Price tier classification (Low / Medium / High)
-│   ├── 02_customers_geography.sql           # Customer enrichment with location data
-│   ├── 03_customer_distribution.sql         # Country & city breakdown queries
-│   ├── 04_reviews_text_cleaning.sql         # Review text cleansing (double-space removal)
-│   ├── 05_engagement_normalisation.sql      # Content-type normalisation & field splitting
-│   └── 06_journey_deduplication.sql         # CTE-based deduplication + NULL duration fill
-│
-├── python/
-│   └── sentiment_analysis.py               # VADER scoring, categorisation & bucketing
-│
-├── powerbi/
-│   └── NovaMart_Dashboard.pbix             # Power BI report file
-│
-├── report/
-│   └── NovaMart_Marketing_Analytics_Report.docx
-│
-└── README.md
 ```
 
 ---
