@@ -36,8 +36,6 @@ NovaMart's leadership identified four core challenges:
 ---
 
 
-```
-
 ---
 
 ## Key Analyses
